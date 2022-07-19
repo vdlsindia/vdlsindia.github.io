@@ -1,0 +1,103 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+	margin-bottom:10px;
+}
+
+
+nav ul{
+	float:right;
+    margin-right:40px;
+	list-style:none;
+	background-color:black;
+	
+}
+nav ul li{
+	display:inline-block;
+	text-align:center;
+	margin:0 40px;
+	position:relative;
+	transition:all 0.3s;
+	color:white;
+	height:50px;
+	letter-spacing:1px;
+	cursor:pointer;
+	font-size:20px;
+	float:left;
+	line-height:50px;
+	padding:0;
+	
+	
+}
+nav ul li a {
+	
+	color:white;
+}
+
+h1{
+	text-align:justify;
+	font-size:1.1em;
+	font-weight:lighter;
+	margin-right:20px;
+	margin-left:20px
+}
+h2{
+	padding-top:25px;
+	text-align:center;
+	font-size:1.1em;
+	font-weight:lighter;
+	margin-right:20px;
+	margin-left:20px
+}
+p{
+	text-indent:100px;
+	line-height:40px;
+	margin-bottom:20px;
+	font-size:1.05em;
+}
+.whatsapp_float{
+	position:fixed;
+	right:100px;
+	top:75%;
+	}
+
+.dropdown_menu {
+ position:absolute;
+  text-align:center;
+ margin:0;
+
+ padding:0;
+  background-color:black;
+  
+
+}
+.dropdown_menu li {
+	
+
+	 display:none;
+}
+nav ul li:hover > .dropdown_menu li{
+	display:block;
+	
+}
+@media(max-width:998px){
+	html{
+		font-size:55%;
+	}
+}
+@media(max-width:768px){
+	html{
+		font-size:45%;
+	}
+}
+.child{
+	
+	padding:0;
+	border:1px solid blue;
+	float:left;
+	width:50%;
+}
